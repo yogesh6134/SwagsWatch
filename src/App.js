@@ -1,12 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
+import RoutesContainer from './Routes';
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Texting</h1>
-    </div>
-  );
+  return <RoutesContainer />
 }
 
 export default App;
